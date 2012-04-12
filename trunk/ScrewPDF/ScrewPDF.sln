@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrewPDF", "ScrewPDF\ScrewPDF.csproj", "{B54E1846-2922-4A93-B1F0-5A8AED228705}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ScrewPDFSetup", "ScrewPDFSetup\ScrewPDFSetup.vdproj", "{BC93F564-DB11-4D59-B694-46D043FE340A}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -17,6 +19,8 @@ Global
 		{B54E1846-2922-4A93-B1F0-5A8AED228705}.Debug|x86.Build.0 = Debug|x86
 		{B54E1846-2922-4A93-B1F0-5A8AED228705}.Release|x86.ActiveCfg = Release|x86
 		{B54E1846-2922-4A93-B1F0-5A8AED228705}.Release|x86.Build.0 = Release|x86
+		{BC93F564-DB11-4D59-B694-46D043FE340A}.Debug|x86.ActiveCfg = Debug
+		{BC93F564-DB11-4D59-B694-46D043FE340A}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
