@@ -68,6 +68,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
         "Release"
@@ -230,7 +243,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ScrewPDF"
         "ProductCode" = "8:{022ADA5D-5AE0-488B-B09B-F4EE62B81E16}"
-        "PackageCode" = "8:{B7C756EE-7B31-4267-AFAE-4872867D7378}"
+        "PackageCode" = "8:{9E88400F-4D4E-4A88-9D36-A9F107AB143A}"
         "UpgradeCode" = "8:{B37AE6FD-1279-4CC6-93A5-0A30DFE9DD15}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -361,7 +374,7 @@
             "Target" = "8:_3E414FE219474BCFB57C13CD3798A967"
             "Folder" = "8:_97482BA330BB40C0B3ACA097F964241E"
             "WorkingFolder" = "8:_FB935CF73094413E9B00B22D5E774765"
-            "Icon" = "8:"
+            "Icon" = "8:_C0C8E282154D4E22A5E8601FF8AC8085"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BA6ED929B5D8435FB0A3EBB114D9351C"
@@ -375,7 +388,7 @@
             "Target" = "8:_3E414FE219474BCFB57C13CD3798A967"
             "Folder" = "8:_5D14F5DE903B404BAD18F4685655359E"
             "WorkingFolder" = "8:_FB935CF73094413E9B00B22D5E774765"
-            "Icon" = "8:"
+            "Icon" = "8:_C0C8E282154D4E22A5E8601FF8AC8085"
             "Feature" = "8:"
             }
         }
