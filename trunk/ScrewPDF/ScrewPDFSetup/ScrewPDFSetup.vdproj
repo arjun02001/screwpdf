@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_1C92B254154E4759BFA54D964E5B7A15"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_3E414FE219474BCFB57C13CD3798A967"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -33,19 +27,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_76428C126E99CB9F829EE5D94EF95A97"
-        "OwnerKey" = "8:_1C92B254154E4759BFA54D964E5B7A15"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_76428C126E99CB9F829EE5D94EF95A97"
-        "OwnerKey" = "8:_FD51E24432CB45C2A5FC83EFF5C20D39"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FD51E24432CB45C2A5FC83EFF5C20D39"
+        "MsmKey" = "8:_E2738BDAC86C41BF817075C599E18A58"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -53,18 +35,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_76428C126E99CB9F829EE5D94EF95A97"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1C92B254154E4759BFA54D964E5B7A15"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FD51E24432CB45C2A5FC83EFF5C20D39"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -167,6 +137,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E2738BDAC86C41BF817075C599E18A58"
+            {
+            "SourcePath" = "8:..\\ScrewPDF\\Images\\monotone_screw.ico"
+            "TargetName" = "8:monotone_screw.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_FB935CF73094413E9B00B22D5E774765"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -176,7 +166,7 @@
             "{1525181F-901A-416C-8A58-119130FE478E}:_5D14F5DE903B404BAD18F4685655359E"
             {
             "Name" = "8:#1916"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:DesktopFolder"
@@ -187,7 +177,7 @@
             "{1525181F-901A-416C-8A58-119130FE478E}:_97482BA330BB40C0B3ACA097F964241E"
             {
             "Name" = "8:#1919"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:ProgramMenuFolder"
@@ -224,7 +214,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ScrewPDFSetup"
         "ProductCode" = "8:{022ADA5D-5AE0-488B-B09B-F4EE62B81E16}"
-        "PackageCode" = "8:{89D7E6F1-4DAA-4548-A811-D672D9B07940}"
+        "PackageCode" = "8:{12C5455D-90CF-4913-912B-4AF3428E5784}"
         "UpgradeCode" = "8:{B37AE6FD-1279-4CC6-93A5-0A30DFE9DD15}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -344,6 +334,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B95AEB1197074D69A8804727305FD7EF"
+            {
+            "Name" = "8:ScrewPDF"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_3E414FE219474BCFB57C13CD3798A967"
+            "Folder" = "8:_5D14F5DE903B404BAD18F4685655359E"
+            "WorkingFolder" = "8:_FB935CF73094413E9B00B22D5E774765"
+            "Icon" = "8:_E2738BDAC86C41BF817075C599E18A58"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FBA331ACB0354D7E8F8DDC03B77BD163"
+            {
+            "Name" = "8:ScrewPDF"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_3E414FE219474BCFB57C13CD3798A967"
+            "Folder" = "8:_97482BA330BB40C0B3ACA097F964241E"
+            "WorkingFolder" = "8:_FB935CF73094413E9B00B22D5E774765"
+            "Icon" = "8:_E2738BDAC86C41BF817075C599E18A58"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -743,68 +761,12 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1C92B254154E4759BFA54D964E5B7A15"
-            {
-            "SourcePath" = "8:..\\ScrewPDF\\obj\\x86\\Debug\\ScrewPDF.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_97482BA330BB40C0B3ACA097F964241E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{B54E1846-2922-4A93-B1F0-5A8AED228705}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3E414FE219474BCFB57C13CD3798A967"
             {
             "SourcePath" = "8:..\\ScrewPDF\\obj\\x86\\Debug\\ScrewPDF.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_FB935CF73094413E9B00B22D5E774765"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{B54E1846-2922-4A93-B1F0-5A8AED228705}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FD51E24432CB45C2A5FC83EFF5C20D39"
-            {
-            "SourcePath" = "8:..\\ScrewPDF\\obj\\x86\\Debug\\ScrewPDF.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_5D14F5DE903B404BAD18F4685655359E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
